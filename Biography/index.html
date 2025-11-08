@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Miguel | Biography</title>
+</head>
+<body>
+
+    <div class="particulas"></div>
+
+    <!-- Barra de Navegação -->
+    <nav class="navbar">
+        <ul class="menu">
+            <li>
+                <a href="#inicio" class="link-menu">inicio</a>
+            </li>
+            <li>
+                <a href="#sobre" class="link-menu">sobre</a>
+            </li>
+            <li>
+                <a href="#perfis" class="link-menu">redes sociais</a>
+            </li>
+            <li>
+                <a href="#contato" class="link-menu">mensagem</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Parte principal do Site -->
+    <main id="inicio" class="cabecalho">
+        <img src="img/miguel.jpeg" alt="Foto de Miguel Ernandes" class="foto-perfil">
+        <h1>Miguel Ernandes</h1>
+        <p class="subtitulo">Desenvolvedor Iniciante</p>
+    </main>
+
+    <!-- Sessão do Sobre (Apresentação) -->
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre Mim</h2>
+        <div class="sobre-area">
+            <p class="sobre-paragrafo">
+                Olá, meu nome é Miguel, tenho 20 anos e sou desenvolvedor de sistemas.
+                Tenho conhecimento nas seguintes tecnologias: Python, SQL, Django, JavaScript, HTML e CSS. 
+                Estou constantemente trabalhando para aprimorar minhas habilidades técnicas e explorar novas ferramentas, 
+                sempre com foco no aprendizado contínuo.
+                Sou formado em Análise e Desenvolvimento de Sistemas pelo Centro Universitário Cesumar (Unicesumar).
+            </p>
+        </div>
+    </section>
+
+    <!-- Sessão dos perfis -->
+    <section id="perfis" class="perfis">
+        <h2 class="perfis-titulo"> Redes Sociais </h2>
+        <div class="perfis-caixa">
+
+            <div class="perfis-card">
+                <img src="img/git.png" alt="GitHub" class="perfis-img">
+                <div class="caixa-texto-perfis">
+                    <h3 class="info-perfis">GitHub</h3>
+                    <p class="p-perfis">Portfólio, onde publico e salvo versões dos meus projetos e estudos pessoais.</p>
+                </div>
+            </div>
+
+            <div class="perfis-card">
+                <img src="img/linkedin.png" alt="linkedin" class="perfis-img">
+                <div class="caixa-texto-perfis">
+                    <h3 class="info-perfis">Linkedin</h3>
+                    <p class="p-perfis">Espaço onde compartilho minha trajetória, conquistas e aprendizados da carreira</p>
+                </div>
+            </div>
+
+            <div class="perfis-card">
+                <img src="img/insta.png" alt="" class="perfis-img">
+                <div class="caixa-texto-perfis">
+                    <h3 class="info-perfis">Instagram</h3>
+                    <p class="p-perfis">Espaço mais pessoal onde compartilho momentos e experiências da vida</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <!-- Sessão de entrar em contato -->
+    <section id="contato" class="contato">
+        <h2 class="contato-titulo">Envie uma mensagem</h2>
+
+        <form class="formulario-contato" id="formulario">
+            <div class="grupo-form">
+                <input placeholder="Nome" class="campo-form">
+            </div>
+
+            <div class="grupo-form">
+                <textarea class="campo-form" placeholder="Digite sua Mensagem:"></textarea>
+            </div>
+
+            <button type="submit" class="botao-form"> Enviar WhatsApp</button>
+        </form>
+    </section>
+
+</body>
+</html>
